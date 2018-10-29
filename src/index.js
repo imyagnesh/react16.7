@@ -1,13 +1,13 @@
-import React, { StrictMode } from "react";
-import ReactDOM from "react-dom";
-import "./index.css";
-import App from "./App";
-import * as serviceWorker from "./serviceWorker";
+import React, { StrictMode } from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import * as serviceWorker from './serviceWorker';
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+ReactDOM.createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
-  </StrictMode>
+  </StrictMode>,
 );
 // ReactDOM.render(<App />, document.getElementById('root'));
 
